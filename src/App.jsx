@@ -5,6 +5,7 @@ import SelectedProject from "./Components/SelectedProject.jsx";
 import { useState } from "react";
 
 function App() {
+  let a = "";
   const [projectState, setProjectState] = useState({
     selectedProjectId: undefined,
     projects: [],
